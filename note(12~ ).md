@@ -21,3 +21,13 @@ input: 123
 
 
 2. 今天学的新指令 `python -m pydoc raw_input`  pydoc是一个帮助文档
+
+
+### 13.py `argv` `解包`等
+1. argv会记录命令行后面的所有参数 包括脚本名(为argv[0])  以空格为分隔  所以argv像是一个数组
+3. 第三句`script, first, second, third = argv`  命名数组argv里的值
+3. 加分题说的**将`raw_input`和`argv`结合**想了我半天，不可能啊！ `argv`明明要在一开始就读参数，怎么raw_input呢  果然再往下看，Q&A就说这是不能的了。  所以作者是逗比吗！！！
+
+  我想这个就算是过了吧
+
+###
